@@ -1,0 +1,20 @@
+name: pycharm-community
+version: '2017.1.2'
+summary: Python IDE for Professional Developers
+description: |
+  Save time while PyCharm takes care of the
+  routine. Focus on bigger things and embrace
+  the keyboard-centric approach to get the
+  most of PyCharm’s many productivity features.
+
+grade: stable
+confinement: classic
+
+apps:
+  pycharm-community:
+    command: bin/pycharm.sh
+
+parts:
+  pycharm-community:
+    plugin: dump
+    source: https://download.jetbrains.com/python/pycharm-community-2017.1.2.tar.gz
