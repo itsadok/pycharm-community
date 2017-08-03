@@ -1,5 +1,5 @@
 name: pycharm-community
-version: '2017.1.5'
+version: '2017.2'
 summary: Python IDE for Professional Developers
 description: |
   Save time while PyCharm takes care of the
@@ -27,4 +27,4 @@ parts:
       - pycharm.desktop
   pycharm-community:
     plugin: dump
-    source: https://download.jetbrains.com/python/pycharm-community-2017.1.5.tar.gz
+    source: https://download.jetbrains.com/python/pycharm-community-2017.2.tar.gz
